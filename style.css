@@ -335,4 +335,87 @@ text-align: center;
     font-size: 15px;
 }
 /* habits part ends here */
+/* run part starts here */
+.extra-mile {
+position: relative;
+width: 1060px;
+height: 371px;
+margin-top: 650px;
+margin-left: 212px;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+display: flex;
+}
+.text {
+position: absolute;
+width: 443px;
+height: 290px;
+left: 54px;
+top: 41px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 34;
+padding: 0px;
+}
+.text h2 {
+position: static;
+width: 443px;
+height: 116px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.text p {
+position: static;
+width: 443px;
+height: 72px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.text button {
+position: absolute;
+width: 224px;
+height: 54px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 10;
+padding: 16px 40px 16px 40px;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+}
+.image img {
+position: absolute;
+width: 366px;
+height: 312px;
+left: 662px;
+top: 30px;
+border-radius: 18px;
+background: url(4);
+}
+/* run part ends here */
 
