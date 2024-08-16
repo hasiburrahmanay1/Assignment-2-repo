@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
 * {
     margin: 0;
     padding: 0;
@@ -63,3 +64,151 @@ border-radius: 46px;
 background: rgb(230, 83, 60);
 }
 /* nav part ends here */
+/* hero part starts here */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #222;
+}
+.hero-text{
+position: static;
+width: 520px;
+height: 440px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 28;
+padding: 0px;
+position: relative;
+}
+
+.hero-text h1 {
+position: static;
+width: 520px;
+height: 282px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 28;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+position: absolute;
+margin-bottom: 158px;
+Font: Inter
+Font weight: 900
+Font size: 78px
+Row height: 1px
+Letter spacing: 0%
+Align: Align left
+}
+
+#shape {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.hero-text p{
+    position:absolute;
+    margin-top: 370px;
+}
+.btn {
+    padding: 10px 20px;
+    margin-top: 210px;
+    cursor: pointer;
+    display: flex;
+}
+
+.primary {
+    background-color: #ff6347;
+    border: none;
+    color: #fff;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ff6347;
+}
+
+.hero-image img{
+position: absolute;
+width: 349px;
+height: 440px;
+left: 877px;
+top: 135px;
+}
+.stats{
+position: absolute;
+width: 193px;
+height: 98px;
+left: 1107px;
+top: 260px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+line-height: 40px;
+letter-spacing: 1px;
+text-align: left;
+Font: Inter
+Font weight: 900
+Font size: 40pxpx
+Row height: 40px
+Letter spacing: 1px
+Align: Align left
+}
+.stats span{
+color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+Font: Inter
+Font weight: 400
+Font size: 13pxpx
+Row height: 20px
+Letter spacing: 1px
+Align: Align left
+}
+.tutorial {
+position: absolute;
+width: 106px;
+height: 50px;
+left: 764px;
+top: 506px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.tutorial span{
+    font-size: 10px;
+}
+/* hero part ends here */
+
